@@ -1,0 +1,84 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "Byte Forever",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/recent/recent",
+			"style": {
+				"navigationBarTitleText": "Lately",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "My",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/upload-page/upload-page",
+			"style": {
+				"navigationBarTitleText": "Upload",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/memory-details/memory-details",
+			"style": {
+				"navigationBarTitleText": "My Memory",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/file-details/file-details",
+			"style": {
+				"navigationBarTitleText": "File Information",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "Sign in",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Byte Forever",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#60abf2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/nav-home.png",
+				"selectedIconPath": "static/img/nav-home-ok.png",
+				"text": "Home"
+			}, {
+				"pagePath": "pages/recent/recent",
+				"iconPath": "static/img/nav-file.png",
+				"selectedIconPath": "static/img/nav-file-ok.png",
+				"text": "Lately"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/img/nav-my.png",
+				"selectedIconPath": "static/img/nav-my-ok.png",
+				"text": "My"
+			}
+		]
+	}
+
+}
